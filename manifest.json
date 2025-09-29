@@ -1,0 +1,14 @@
+{
+  "name": "WebSS for Figma",
+  "description": "Capture full-page screenshot and split into 4096px JPGs.",
+  "version": "1.2",
+  "manifest_version": 3,
+  "permissions": ["tabs", "activeTab"],
+  "action": { "default_popup": "popup.html", "default_icon": "icons/icon16.png"},
+  "background": { "service_worker": "background.js" },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }]
+}
