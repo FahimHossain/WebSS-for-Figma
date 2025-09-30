@@ -5,6 +5,11 @@
   "manifest_version": 3,
   "permissions": ["tabs", "activeTab"],
   "action": { "default_popup": "popup.html", "default_icon": "icons/icon16.png"},
+  "icons": {
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "background": { "service_worker": "background.js" },
   "host_permissions": ["<all_urls>"],
   "content_scripts": [{
