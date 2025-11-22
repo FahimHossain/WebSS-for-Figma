@@ -19,13 +19,9 @@ The resulting images maintain pixel-perfect accuracy without overlapping sticky 
 
 ## Installation
 
-1. Clone this repository or download the ZIP file and extract it.  
-2. Open Google Chrome.  
-3. Navigate to `chrome://extensions/`.  
-4. Enable "Developer mode" in the top right corner.  
-5. Click on "Load unpacked" and select the extension folder you cloned or extracted.
+Download and Install from the official __[Chrome Web Store Link](https://chromewebstore.google.com/detail/webss-for-figma/bcphobbdhhnfddnjffpcankfejmpckgg)__
 
-The extension icon will appear next to the address bar for easy access.
+Pin the extension for easy access.
 
 ---
 
